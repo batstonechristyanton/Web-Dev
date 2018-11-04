@@ -1,0 +1,431 @@
+
+/* Assignment 1 CSS Document */
+/*Batstone Christyanton 
+			0543482*/
+/*in this css page i have divided my webpage into 4 diffrent parts where i apply sizing and styling so it can be viewed on diffrent devices*/
+/*#####################Page Containers######################################################*/
+
+body{ 	
+	width:auto;
+	margin:auto;
+	background-color:#313131;
+	/*using diffrent font familys if one broswer does not support then we can use another font*/
+	font-family:Tahoma,"Times New Roman","Times","Arial","Impact","Calibri",serif;
+}
+#container { 
+
+	margin:auto;
+	background-color:#000000;
+	border-color:#334d4d;
+	border-width:.75em;
+	border-style:groove;
+	width:70em
+}
+
+
+#content {
+	padding:9.91em;
+	padding-top:4em;
+	background-color:#450606;
+
+}
+
+footer {
+	width:auto;
+	background-color:#737373;
+	color :white;
+	text-align:center;
+	font-size:1.5em;
+	height:1em;
+} 
+
+
+/*##################### Header #####################################################
+ here i have divided the header into its own catergory so i can stilize the 3 diffrent headers i have
+ made and also i adjust everything using its class name this way i can in herit them according to the 
+ diffrent pages i will be changing the names to*/
+
+header {
+	overflow:hidden;
+	background-color:#000000;
+	width:auto;
+	height:6em;
+	padding-bottom:7.2em;
+	border:1em solid #737373;
+	border-right:1em solid#737373;
+	border-left:1em solid#737373;
+	border-width:1em;
+	border-style:outset; 
+	border-width:0.5em;
+}
+
+
+header h2{
+
+	font-size:1.5em;
+	margin-top:2.6em;
+	margin-right:0.5em;
+	color :#FF00FF;
+	text-align:right;
+	float:right;
+	text-shadow: 1px 0.5px 0.5px white, 0 0 0.5px white, 0 0 .5px white;
+	font-family:Arial,"Times New Roman","Times","Arial","Impact","Calibri",serif;
+	letter-spacing: 0.2em;
+	
+	
+}
+header h3 {
+
+	font-size:1.5em;
+	color :white;
+	font-size:1.5em;
+	margin-top:2.8em;
+	margin-bottom:3.1em;
+	margin-left:-2.9em;
+	color :#ad1f1f;
+	letter-spacing:0.2em;
+	float:left;
+	overflow:hidden;
+	text-shadow: 1px 0.5px 0.5px white, 0 0 0.5px white, 0 0 .5px white;
+	font-family:Arial,"Times New Roman","Times","Arial","Impact","Calibri",serif;
+}
+
+
+
+img.profpic{
+
+	margin-right:5em;
+	clear:both;
+	float:left;
+	border: 2.5px solid #737373;
+	border-style:ridge;
+	font-family:"times";
+
+
+}
+
+
+
+/*##################### HomePage Header #######################*/
+.welcome {
+	font-size:4.5em;
+	font-weight:bold;
+	margin-top:0.5em;
+	margin-right:1.9em;
+	letter-spacing:0.3em;
+	text-align:center;
+	color:#002FD8;
+	text-shadow: 1px 1px 1px white, 0 0 20px white, 0 0 5px white;
+}
+
+/*##################### MyCvPage Header ######################*/
+.myCv {
+	font-size:4.5em;
+	font-weight:bold;
+	margin-top:0.5em;
+	margin-right:1.9em;
+	letter-spacing:0.3em;
+	text-align:center;
+	color:#002FD8;
+	text-shadow: 1px 1px 1px white, 0 0 20px white, 0 0 5px white;
+}
+/*##################### Writing Page Header ##################*/
+.writing {
+	font-size:4.5em;
+	font-weight:bold;
+	margin-top:0.5em;
+	margin-right:1.9em;
+	letter-spacing:0.3em;
+	text-align:center;
+	color:#002FD8;
+	text-shadow: 1px 1px 1px white, 0 0 20px white, 0 0 5px white;
+}
+/*##################### Mediapage Header ####################*/
+.media{
+	font-size:4.5em;
+	font-weight:bold;
+	margin-top:0.5em;
+	margin-right:1.9em;
+	letter-spacing:0.3em;
+	text-align:center;
+	color:#002FD8;
+	text-shadow: 1px 1px 1px white, 0 0 20px white, 0 0 5px white;
+}
+
+
+/*##################### Navigation ######################################################*/
+
+nav { 
+
+	overflow:auto;
+	background-color:#737373;
+
+
+}
+
+
+nav a { 
+	display:block;
+	border:2px solid black;
+	background-color:#660000;; 
+	color :white;
+	text-align:center;
+	padding:0.5em 3em;
+	margin:0.3em;
+	border-radius:11px;
+	text-decoration:none;
+	letter-spacing:0.2em;
+
+}
+
+
+nav li {
+	
+	float:left;
+
+
+
+}
+
+
+nav a:hover {
+	background-color:#111;
+
+} 
+
+/*##################### Content ######################################################*/
+
+
+/*##################### Home Page Content #######################*/	
+.paragraph2{
+
+	padding-top:1em;
+}
+
+.paragraph3{
+	padding-top:1em;
+
+}
+
+.paragraph4{
+
+	padding-top:1em;
+	
+}
+.firstpageintro{
+
+	text-shadow: 0 0 3px red, 0 0 5px #000000;
+	font-size:1.0em;
+	color:white;
+	letter-spacing:0.1em;
+	line-height:1.8em;
+	text-align:justify;
+	word-wrap:break-word;
+	margin-bottom:-7em;
+	text-indent:3em;
+
+	
+}
+
+/*##################### MyCvContent #######################*/
+.resTitle{
+
+
+	text-align:center;
+	line-height:1.5em;
+	font-size:1.5em;
+	font-weight:bold;
+	font-family:arial,"Times New Roman","Times","Arial","Impact","Calibri",serif;
+
+	color:darkblue;
+	text-shadow: 
+	0 -1px 0 #fff, 
+	0 1px 0 #2e2e2e, 
+	0 2px 0 #2c2c2c, 
+	0 3px 0 #2a2a2a, 
+	0 4px 0 #282828, 
+	0 5px 0 #262626, 
+	0 6px 0 #242424, 
+	0 7px 0 #222, 
+	0 8px 0 #202020, 
+	0 9px 0 #1e1e1e, 
+	0 10px 30px rgba(0, 0, 0, 0.9);
+	letter-spacing:0.1em;	
+}
+
+
+.edu{
+
+	padding-top:1em;
+	color:#00FF00;
+	border-bottom:6px solid black;
+	font-weight:bolder;
+	text-shadow:0.5px 1px 5px;
+	font-size:1.5em;
+	letter-spacing:0.4em;
+}
+
+.eduInfo{
+	color:yellow;
+	padding-top:1em;
+	letter-spacing:0.1em
+
+}
+
+strong{
+	color:green;
+}
+em {
+	font-weight:bold; font-style:normal;
+}
+
+table{
+	width:100%;
+
+}
+
+
+td{
+	height:2em;
+}
+th{
+	height:2em;
+}
+li{
+	padding-top:0.5em;
+}
+
+.hightlights{
+	
+	color:#00FF00;
+	border-bottom:5px solid white;
+	font-weight:bold;
+	font-size:1.5em;
+	letter-spacing:0.1em;
+
+}
+.qualification{
+	padding-top:1em;
+	color:#20B2AA;
+}
+.workExperience{
+	color:#00FF00;
+	font-weight:bold;
+	font-size:1.8em;
+	padding-top:1em;
+	border-bottom:7px solid blue;
+
+}
+
+
+.workPlaceName{
+	padding-top:1em;
+	color:#87CEFA;
+}
+.workComm{
+	color:#FF00FF;
+}
+.photoG{
+	color:#87CEFA;
+	padding-top: 1em;
+}
+.photoInfo{
+	color:yellow;
+}
+.projects{
+	color:#00FF00;
+	font-weight:bold;
+	padding-top: 1em;
+	border-bottom:0.2em solid white;
+	font-size:1.8em;
+}
+
+.proJpe{
+	font-weight:bold;
+	padding-top: 1em;
+	color:#87CEFA;
+	font-size:1.4em;
+
+	
+}
+.jpePara{
+	color:#87CEEB;
+	line-height:1.5em;
+
+}
+.activit{
+	color:#00FF00;
+	font-weight:bold;
+	padding-top: 1em;
+	border-bottom:0.2em solid blue;
+	font-size:1.8em;
+
+}
+
+.activName{
+	color:#FF0000;
+	padding-top: 1em;
+}
+
+.autombileEnthusiast{ 
+	padding-top:2em;
+
+	color:#FF0000; 
+}
+
+
+/*##################### WritingContent #######################*/
+/*in this page i used the same stiling of paragraph 1 and 2 up to 4
+virtually i have inheritied the stiling of the first homepage less coding on my end. */
+.paragraph2v2{
+
+padding-top:2.5em;
+
+}
+
+
+.paragraph5{
+
+	padding-top:2em;
+
+}
+
+.parargraph6{
+
+	padding-top:1em;
+}
+
+.workCitedweb{
+	font-weight:bold;
+	padding-top:5em;
+	padding-left:17em;
+}
+.worSitedinformation{
+	border:black 0.5em solid;
+
+}
+
+
+/*#####################  MediaContent #######################*/
+
+.flex-container{
+
+	height:100%;
+	display:flex;
+	border-radius:1px;
+
+	
+}
+
+.flex-itemvideo-content3{
+	padding-top:18.7em;
+	margin-left:-50em;
+}
+
+video{ width:100%; 
+	height:auto;
+}
+
+video-content{
+	background-color:#ccffcc;
+}

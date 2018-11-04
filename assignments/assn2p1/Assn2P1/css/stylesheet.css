@@ -1,0 +1,241 @@
+
+/* Assignment 1 CSS Document */
+/*Batstone Christyanton 
+			0543482*/
+/*in this css page i have divided my webpage into 4 diffrent parts where i apply sizing and styling so it can be viewed on diffrent devices*/
+/*#####################Page Containers######################################################*/
+
+body{ 		
+	
+	width:auto;
+	margin:auto;
+
+	/*using diffrent font familys if one broswer does not support then we can use another font*/
+	font-family:Tahoma,"Times New Roman","Times","Arial","Impact","Calibri",serif;
+}
+#container { 
+
+	margin:auto;
+	width:70em
+	color:blue;
+}
+
+
+#content {
+	padding:9.91em;
+	padding-top:4em;
+	background-color:#450606;
+	
+
+}
+
+footer {
+	width:auto;
+	background-color:#737373;
+	color :white;
+	text-align:center;
+	font-size:1.5em;
+	height:1em;
+} 
+
+header {
+	overflow:hidden;
+	background-color:#000000;
+	width:auto;
+	height:6em;
+	padding-bottom:7.2em;
+	border:1em solid #737373;
+	border-right:1em solid#737373;
+	border-left:1em solid#737373;
+	border-width:1em;
+	border-style:outset; 
+	border-width:0.5em;
+}
+
+
+header h2{
+
+	font-size:1.5em;
+	margin-top:2.6em;
+	margin-right:0.5em;
+	color :#FF00FF;
+	text-align:right;
+	float:right;
+	text-shadow: 1px 0.5px 0.5px white, 0 0 0.5px white, 0 0 .5px white;
+	font-family:Arial,"Times New Roman","Times","Arial","Impact","Calibri",serif;
+	letter-spacing: 0.2em;
+	
+	
+}
+header h3 {
+
+	font-size:1.5em;
+	color :white;
+	font-size:1.5em;
+	margin-top:2.8em;
+	margin-bottom:3.1em;
+	margin-left:-2.9em;
+	color :#ad1f1f;
+	letter-spacing:0.2em;
+	float:left;
+	overflow:hidden;
+	text-shadow: 1px 0.5px 0.5px white, 0 0 0.5px white, 0 0 .5px white;
+	font-family:Arial,"Times New Roman","Times","Arial","Impact","Calibri",serif;
+}
+
+
+
+img.profpic{
+
+	margin-right:5em;
+	clear:both;
+	float:left;
+	border: 2.5px solid #737373;
+	border-style:ridge;
+	font-family:"times";
+
+
+}
+
+
+
+/*##################### HomePage Header #######################*/
+.welcome {
+	font-size:4.5em;
+	font-weight:bold;
+	margin-top:0.5em;
+	margin-right:1.9em;
+	letter-spacing:0.3em;
+	text-align:center;
+	color:#002FD8;
+	text-shadow: 1px 1px 1px white, 0 0 20px white, 0 0 5px white;
+}
+
+
+/*##################### Navigation ######################################################*/
+
+nav { 
+
+	overflow:auto;
+	background-color:#737373;
+
+
+}
+
+
+nav a { 
+	display:block;
+	border:2px solid black;
+	background-color:#660000;; 
+	color :white;
+	text-align:center;
+	padding:0.5em 3em;
+	margin:0.3em;
+	border-radius:11px;
+	text-decoration:none;
+	letter-spacing:0.2em;
+
+}
+
+
+nav li {
+	
+	float:left;
+
+
+
+}
+
+
+nav a:hover {
+	background-color:#111;
+
+} 
+
+
+/*##################### Home Page Content #######################*/	
+.paragraph2{
+
+	padding-top:1em;
+}
+
+.paragraph3{
+	padding-top:1em;
+
+}
+
+.paragraph4{
+
+	padding-top:1em;
+	
+}
+.firstpageintro{
+
+	text-shadow: 0 0 3px red, 0 0 5px #000000;
+	font-size:1.0em;
+	color:white;
+	letter-spacing:0.1em;
+	line-height:1.8em;
+	text-align:justify;
+	word-wrap:break-word;
+	margin-bottom:-7em;
+	text-indent:3em;
+
+	
+}
+
+em {
+	font-weight:bold; font-style:normal;
+}
+
+table{
+	border: 1em solid white;
+	width:100%;
+	border-collapse:collapse;
+	border-width: 0.5em;
+
+
+	
+	
+}
+
+td{border: 0.5em solid white;
+	
+	height:2em;
+	width:0.5em;
+ 
+}
+th{border: 0.5em solid white;
+	background-color:black;
+	
+	height:2em;
+}
+#table{
+	color:white;
+	text-align:center;
+
+}
+li{
+	padding-top:0.5em;
+}
+
+/*##################### WritingContent #######################*/
+/*in this page i used the same stiling of paragraph 1 and 2 up to 4
+virtually i have inheritied the stiling of the first homepage less coding on my end. */
+.paragraph2v2{
+
+padding-top:2.5em;
+
+}
+
+
+.paragraph5{
+
+	padding-top:2em;
+
+}
+
+.parargraph6{
+
+	padding-top:1em;
+}

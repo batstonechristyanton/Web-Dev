@@ -1,0 +1,158 @@
+<head>
+ <meta charset="utf-8">
+ <title>CSS Example</title>
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <link rel="stylesheet" href="Css/style.css">
+</head>
+
+<h2 >Inline Elements</h2>
+<p><em>Sometimes</em>, you need to draw
+attention to a particular word or phrase.</p>
+<p>Other times you need to <strong>strong</strong>ly
+emphasize the importance of a word or phrase.</p>
+
+<sub> this is what sub does </sub>
+<sup> super scrpting when using math </sup>
+
+<span>span element to be used to do something </span>|
+
+<div>
+ <label for="name">Name:</label>
+ <input type="text" name="Name" id="name" required />
+</div>
+
+<fieldset>
+<legend>Gender</legend>
+ <div>
+ <input type="radio" name="gender" id="male" value="m" />
+ <label for="male">Male</label>
+ </div>
+ <div>
+ <input type="radio" name="gender" id="female" value="f"/>
+ <label for="female">Female</label>
+ </div>
+</fieldset>
+
+
+ <legend>Languages you know:</legend>
+ <div>
+ <input type="checkbox" name="know[]" id="HTML" value="HTML" />
+ <label for="HTML">HTML</label>
+ </div>
+ <div>
+ <input type="checkbox" name="know[]" id="CSS" value="CSS"/>
+ <label for="CSS">CSS</label>
+ </div>
+ <div>
+ <input type="checkbox" name="know[]" id="JS" value="JS"/>
+ <label for="JS">JavaScript</label>
+ </div>
+</fieldset>
+
+<fieldset>
+ <legend>Languages you know:</legend>
+ <div>
+ <input type="checkbox" name=“know-html“ id="HTML" value="HTML" />
+ <label for="HTML">HTML</label>
+ </div>
+ <div>
+ <input type="checkbox" name=“know-css" id="CSS" value="CSS"/>
+ <label for="CSS">CSS</label>
+ </div>
+ <div>
+ <input type="checkbox" name=“know-js” id="JS" value="JS"/>
+ <label for="JS">JavaScript</label>
+ </div>
+</fieldset>
+
+
+
+
+<div>
+ <label for="name">Name </label>
+ <input type="text" id="name" name="name" pattern="[A-Za-z-0-9]+\s[A-Zaz-'0-9]+"
+title="firstname lastname" autocorrect="off" required />
+ </div>
+ <div>
+
+ 	<div>
+ <label for="email">Email </label>
+ <input type="email" name="Email" id="email" placeholder="test@test.com" />
+ </div>
+ <div>
+ <label for="date">Date </label>
+ <input type="date" name="date" id="date" placeholder="20-09-2010" />
+ </div>
+ <div>
+ <label for="range">Range </label>
+ <input type="range" name="range" id="range" min="0" max="20" step="2" value="6"/>
+ </div>
+ <div>
+ <label for="color">Color</label>
+ <input type="color" name="color" id="color"/>
+ </div>
+
+ 
+<div>
+ <input type="hidden" name="MAX_FILE_SIZE" value="12400" />
+ <label for="imgupload">Upload Image:</label>
+ <input type="file" name="imgupload" id="imgupload"/>
+</div>
+
+
+<div>
+ <label for="summary">Summary</label>
+ <textarea name="summary" id="summary" cols="25" rows="10"></textarea>
+</div>
+
+<div>
+ <label for="country">Country</label>
+ <select name="country" id="country">
+ <option value="0">Please Choose One</option>
+ <option value="Canada">Canada</option>
+ <option value="US">United States</option>
+ </select>
+</div>
+
+
+<div>
+ <label for="language">Web Language of Choice:</label>
+ <select name="language" id="language" multiple>
+ <option value="1">HTML</option>
+ <option value="2">CSS</option>
+ <option value="2">PHP</option>
+ <option value="2">JavaScript</option>
+ </select>
+</div>
+
+<button type="submit" name="submit" id="submit">Submit Form</button>
+<button type="reset" name="reset" id="reset">Clear Form</button>
+<button type="button" name="jsbutton" id="jsbutton">Do Nothing</button>
+
+<div id="lists">
+ <p class="keyword">This is the first span, which has the keyword class</p>
+ <p>This is the <span class="keyword">first</span> paragraph</p>
+ <ul>
+ <li>HTML and XHTML</li>
+ <li>
+ <ul>
+ <li><span class="keyword">principals</span> of markup</li>
+ <li>syntax</li>
+ <li class="keyword">semantics</li>
+ <li>validity</li>
+ <li>accessibility</li>
+ </ul>
+ </li>
+ <li>
+ <ul>
+ <li>HTML Versions</li>
+ <li>
+ <ul>
+ <li>HTML 4.01, 5.0</li>
+ <li>XHTML 1.0, 1.1</li>
+ </ul>
+ </li>
+ </ul>
+ </li>
+ </ul>
+ </div>

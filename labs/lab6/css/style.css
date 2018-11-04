@@ -1,0 +1,206 @@
+@charset "UTF-8";
+
+
+
+/* CSS Document */
+
+/*#####################Page Containers#######################*/
+body { 
+  background-color:#996600;
+  font-family:Georgia, "Times New Roman", Times, serif;
+  }
+
+#container{
+	width:80em;
+	margin: auto;
+	background-color:#FFF;
+	border: .5em solid #660000;
+	margin-top: .5em;
+	border-radius: .3em;
+	
+}
+
+header{
+	border-bottom: 1em solid #660000;
+	overflow:hidden; /*leave out for demo*/
+}
+
+nav{
+	width: 15em;
+	float:left;
+	padding-top: 1em;
+ }
+
+#content{
+ 	width: 60em;
+ 	float:right;
+	padding: 1em;
+	border-left: .5em solid #660000;
+	min-height: 30em;
+}
+
+footer{
+	clear:both;
+	width: 80em;
+	background-color:#660000;
+  color:#996600;
+	padding:1em 0;
+	text-align:center;
+	
+}
+
+
+/*#####################Header#######################*/
+
+
+header img{ float:left;}
+
+header h1{
+	float: left;
+	width:20em;
+	font-size: 2em;
+	padding: 2em 0 1em .5em;
+}
+
+header h2{
+ 	float:right;
+ 	width:7em;
+	font-size: 1.7em;
+	padding: 2em 1em 0 0;
+	text-align: right;
+ }
+ 
+ header h3{
+   float:left;
+   font-size: 1.4em;
+   padding: 0px 0px 0px .5em;
+ 
+ }
+  
+ sup{
+
+	font-size: .5em;
+	vertical-align: super;
+}
+ /*#####################Navigation#######################*/
+
+nav li a{
+	display:block;
+	border: .2em solid #045500;
+	background-color:#045500;
+	padding: .5em;
+	margin:.5em;
+	border-radius: .5em;
+}
+	
+
+nav li a:hover{
+	background-color:#FFF;
+	color:#045500;
+
+}
+
+
+nav a, nav a:link, nav a:visited{
+	text-decoration:none;
+	color:#FFFFFF;
+}
+
+ 
+ 
+ /*##################### Content #######################*/
+
+#content h1{
+	font-size: 1.5em;
+	color: #000066;
+  }
+
+#content h2{
+ 	
+	font-size: 1.2em;
+	padding:1em;
+	color:#045500;
+ }
+ 
+ #content ul{
+   list-style-type: circle;
+   padding:2em;
+ }
+ 
+ #content ol{
+   list-style-type: decimal;
+   padding:2em;
+ }
+ 
+/*##################### Form #######################*/
+
+form{
+	border: .2em solid #000066;
+	border-radius: .5em;
+	padding: 1em;
+}
+
+label{
+	display:inline-block;
+	width: 15em;
+	text-align:right;
+	color:#000066;
+	padding: 1em;
+}
+
+
+
+#house{
+ 	border:.2em solid #996600;
+	border-radius: .5em;
+}
+
+#house label{
+	width: auto;
+	text-align:left;
+	padding-left:0;
+}
+
+#house legend{
+	color:#660000;
+	padding: .5em;
+}
+	
+
+.textarealabel{
+  vertical-align:top;
+}
+
+#agree+label{
+  width:35em;
+  text-align: left;
+}
+
+button{
+  background-color: #045500;
+  color:#fff;
+  padding:.5em .8em;
+  border:.2em solid #660000;
+  border-radius: .5em;
+  font-size:1em;
+ 
+}
+
+button:first-of-type{
+  margin-left:20em;
+}
+
+button:hover{
+	background-color:#FFF;
+	color:#045500;
+
+}
+
+/*##################### Color Styles #######################*/	
+.griff{color: #660000;}	
+.huff{color: #996600;}	
+.rav{color: #000066;}
+.sly{color:#045500;}
+
+
+

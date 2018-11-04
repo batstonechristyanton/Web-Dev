@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>3420 Lab 2</title>
+  </head>
+  
+  <body>
+    <div id="container">
+      <header>
+        <img src="img/logo.jpg" alt = "logo" height= "173" Width="196"/>
+        <h1> Hogwarts School of Witchcraft and Wizardy</h1>
+        <h2> 1st annual "Best Profesor" Award</h2>
+        <h3> Draco dormiens nunquan titillandus</h3>
+
+      </header>
+      
+      <nav>
+         <ul> 
+             <li> <a href="Home">Home</a></li>
+              <li> <a href="VoteNow">Vote Now</a></li>
+              <li> <a href="HogsmedeWeekends"> Hogsmede Weekends </a></li>
+              <li> <a href="Results">Results</a></li>
+        </ul>
+      </nav>
+        
+          <div id="content">
+          <form method="post" action="processvote.php">
+
+            <div>
+                <label for="Studentname"> Student Name </label>
+                <input type="text" id="Studentname" name="Studentname" pattern="[A-Za-z-0-9]+\s[A-Za-z-'0-9]+" title="firstname lastname"  placeholder ="firstname lastname" />
+           </div>
+         
+            <div>
+              <label for="email">Student Email </label>
+              <input type="email" name="Email" id="email" placeholder="test@test.com" />
+          </div>
+        
+              <fieldset>
+                  <legend>House Association</legend>
+                
+                   <input type="radio" name="HouseAssociation" id="Gryffindor" value="G" />
+                   <label for="Gryffindor">Gryffindor</label>
+                   <input type="radio" name="Houseassociation" id="Slytherin" value="s"/>
+                   <label for="Slytherin">Slytherin</label>
+                   <input type="radio" name="Houseassociation" id="Hufflepuff" value="h"/>
+                   <label for="Hufflepuff">Hufflepuff</label>
+                   <input type="radio" name="Houseassociation" id="Ravenclaw" value="r"/>
+                   <label for="Ravenclaw">Ravenclaw</label>
+            
+              </fieldset>   
+              <div>
+                   <label for="ProfessorNomination">Professor Nomination:</label>
+                   <select name="ProfessorNomination" id="ProfessorNomination">
+                     <option value="0">Select One</option>
+                     <option value="Albus Dumbledore">Albus Dumbledore</option>
+                     <option value="Alecto Carrow">Alecto Carrow</option>
+                     <option value="Severus snape">Severus Snape</option>
+                     <option value="Silvanus Kettleburn">Silvanus Kettleburn</option>
+                   </select>
+               </div>  
+                   
+                   <div>
+                       <label for="ProvideNomination">Provide Nomination Narrative Below </label>
+                        <textarea name="ProvideNomunation" id="ProvideNomination" cols="70" rows="10"></textarea>
+                    </div>
+                      <div>
+                         <input type="checkbox" name="know" id="yes" value="y"/>
+                         <label for="yes">Yes I acknoweldege having read and accepted the Official Contest Rules.</label>
+                      </div>
+                     <div>
+                         <button type="submit" name="vote" id="vote">Vote</button>
+                          <button type="reset" name="resetform" id="resetform">Reset Form</button>
+                       </div>
+                     </form>
+                      <footer>
+                         <p>&copy;2011 Hogwarts School Witchcraft and Wizardy</p>
+                        </footer>
+                      </div>
+                  
+   </div><!--Container-->
+  </body>
+</html>
